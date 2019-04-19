@@ -51,7 +51,7 @@ Add the following to **function.proj**
 </Project>
 ```
 
-Click on the file called **run.csx**, and add the following text replacing [YOUR_IOTHUB_CONNECTIONSTRING] with the one found in the IoT Hub landing page under **Shared access policies -> iothubowner**
+Click on the file called **run.csx**, and add the following text replacing [YOUR_IOTHUB_CONNECTIONSTRING] with the one found in the IoT Hub landing page under **Shared access policies -> iothubowner**.  Also replace [YOUR_DEVICE_NAME] with the MXChip device name in IoT Hub.
 
 ```
 #r "Newtonsoft.Json"
@@ -63,7 +63,7 @@ using Newtonsoft.Json;
 using Microsoft.Azure.Devices;
 
 static readonly string connectionString = "[YOUR_IOTHUB_CONNECTIONSTRING]";
-static readonly string deviceName = "mxchip";
+static readonly string deviceName = "[YOUR_DEVICE_NAME]";
 static dynamic serviceClient = ServiceClient.CreateFromConnectionString(connectionString);
 
 public static async Task<IActionResult> Run(HttpRequest req, ILogger log)
