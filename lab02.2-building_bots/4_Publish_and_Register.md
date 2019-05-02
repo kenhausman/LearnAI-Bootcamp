@@ -1,6 +1,19 @@
 ## 4_Publish_and_Register:
 Estimated Time: 10-15 minutes
 
+
+## Important Note - May 2019 - Beginning
+
+This have not been updated since August 1, 2018. And for now, there are no plans for any maintenance.
+You can execute this lab on your own, but there is no guarantee that it will work.
+
+You can use [this](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-deploy-az-cli?view=azure-bot-service-4.0&tabs=csharp) official material as a reference, but you need to find, by yourself, what are the actions required to make it work.
+
+**Stay tuned for further updates. Every collaboration is welcome.**
+
+## Important Note - April 2019 - End
+
+
 ### Lab 4.1: Re-publish your bot
 
 As you may recall, in the first section of this lab, you deployed a simple Echo Bot using Azure Bot Service. You've since changed the code quite substantially to create your PictureBot. What you'll do next is re-publish your bot to the same Azure Web App Bot.
