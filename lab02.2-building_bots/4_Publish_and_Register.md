@@ -11,7 +11,7 @@ You can use [this](https://docs.microsoft.com/en-us/azure/bot-service/bot-builde
 
 **Stay tuned for further updates. Every collaboration is welcome.**
 
-## Important Note - April 2019 - End
+## Important Note - May 2019 - End
 
 
 ### Lab 4.1: Re-publish your bot
