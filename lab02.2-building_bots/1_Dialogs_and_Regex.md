@@ -2,6 +2,18 @@
 
 Estimated Time: 60-75 minutes
 
+## Important Note - April 2019 - Workaround Instructions - Beginning
+
+This lab, **1_Dialogs_and_Regex**, is under maintenance. The hands-on activities won't work, since the EchoBot template changed. To complete this Bootcamp, please follow the workaround steps below:
+
+1. The theory present in this lab is still relevant. You should read everything, but don't create, download, open, remove, or rename anything.
+1. Using the "Finished Solution", located in the **resources/code/FinishedPictureBot-Part0** folder, start from the [2_Azure_Search](./2_Azure_Search.md) lab. 
+1. Also execute the [LUIS](./3_LUIS.md) lab.
+
+**Stay tuned for further updates. Every collaboration is welcome.**
+
+## Important Note - April 2019 - Workaround Instructions - End
+
 ## Building a Bot
 
 We assume that you've had some exposure to the Bot Framework. If you have, great. If not, don't worry too much, you'll learn a lot in this section, but you may want to take it slow. We recommend completing [this tutorial](https://docs.microsoft.com/en-us/azure/bot-service/dotnet/bot-builder-dotnet-sdk-quickstart?view=azure-bot-service-4.0) and checking out the [documentation](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-overview-introduction?view=azure-bot-service-4.0).
